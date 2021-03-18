@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="row ">
+    <div class="col">
+      <div class="form-outline">
+        <label class="form-label" for="form6Example1">SELECCIONAR SERVICIO</label>
+        <br>
+<select class="form-select" aria-label="Default select example">
+  <option selected></option>
+
+  <option *ngFor="let servicio of servicios"    value="1">{{servicio}}</option>
+
+
+</select>
+      </div>
+    </div>
+  </div>
+
+<br>
+
+
+<div class="row ">
+  <div class="col">
+    <div class="form-outline">
+      <label class="form-label" for="form6Example1">SELECCIONAR PROFESIONAL</label>
+      <br>
+<select class="form-select" aria-label="Default select example" >
+  <option selected ></option>
+
+  <option *ngFor="let profesional of profesionales"    value="1">{{profesional}}</option>
+
+
+</select>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+<div class="row ">
+  <div class="col">
+    <div class="form-outline">
+      <label class="form-label" for="form6Example1">SELECCIONAR HORARIO DE LA RESERVA</label>
+      <br>
+
+      <select class="form-select" aria-label="Default select example" >
+  <option selected ></option>
+
+  <option *ngFor="let profesional of profesionales"    value="1">{{profesional}}</option>
+
+
+</select>
+    </div>
+  </div>
+</div>
+<button  class="btn btn-primary btn-block mb-4"  (click)="CambioPagina()">Continuar</button>
+</div>

@@ -1,0 +1,5 @@
+
+<app-encabezado ></app-encabezado>
+<app-reservas *ngIf="consultarEstado()==1"></app-reservas>
+<app-user *ngIf="consultarEstado()==2"></app-user>
+<app-register *ngIf="consultarEstado()==2"></app-register>
