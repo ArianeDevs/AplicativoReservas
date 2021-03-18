@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "aplicativoreservas": {
+      "hosting": {
+        "Reservas": [
+          "aplicativoreservas"
+        ]
+      }
+    }
+  }
+}

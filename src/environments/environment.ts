@@ -7,7 +7,17 @@ export const environment = {
   production: false,
   logo :'/assets/barbero1.jpg',
   nombre: '   BARBER-ZONE',
-  estado: 1
+  estado: 1,
+  firebaseConfig: {
+    apiKey: "AIzaSyCzt5izhCWzRu1mIR6VEwT4obUqPxe0fjA",
+    authDomain: "aplicativoreservas.firebaseapp.com",
+    databaseURL: "https://aplicativoreservas-default-rtdb.firebaseio.com",
+    projectId: "aplicativoreservas",
+    storageBucket: "aplicativoreservas.appspot.com",
+    messagingSenderId: "1003724595684",
+    appId: "1:1003724595684:web:a83dd86d7fe6a3afede7f1",
+    measurementId: "G-92H8RZ2PXC"
+  }
 };
 
 
@@ -17,6 +27,8 @@ export const observador$ = of({
   logo :'/assets/barbero1.jpg',
   nombre: '   BARBER-ZONE',
   estado: 1
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 
 });
 /*
